@@ -1,0 +1,14 @@
+.SideBar {
+    border-right: 1px solid var(--bg) !important;
+    flex: 0.3;
+    margin-top: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.TwitterIcon_SideBar {
+    color: var(--main);
+    font-size: 30px !important;
+    cursor: pointer;
+    margin-left: 22px;
+    margin-bottom: 22px;
+}

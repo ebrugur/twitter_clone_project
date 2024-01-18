@@ -1,0 +1,18 @@
+.SideBarOptions{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.SideBarOptions:hover {
+    background: var(--bg);
+    border-radius: 29px;
+    color: var(--main);
+}
+.SideBarOptions h2 {
+    font-size: 18px;
+    margin-right: 22px;
+    font-weight: 800;
+}
+.SideBarOptionActive {
+    color: var(--main);
+}

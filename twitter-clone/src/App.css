@@ -1,0 +1,33 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+* {
+  font-family: "Besley", serif;
+  border: none !important;
+  outline: none;
+}
+:root{
+  --main:#2ea4ed;
+  --bg: #e4e6e7;
+}
+::selection{
+  background: var(--main);
+  color: #000;
+}
+.MainApp{
+  display: flex;
+  height: 100vh;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+::-webkit-scrollbar{
+  width: 9px;
+}
+::-webkit-scrollbar-thumb{
+  background: var(--main);
+}
+::-webkit-scrollbar-track{
+  background: #0000;
+}

@@ -1,0 +1,46 @@
+.MainPost{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--bg);
+    padding-bottom: 10px;
+}
+.PostBody{
+    padding:10px;
+    flex: 1;
+}
+.PostHeaderDescription{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.PostHeader .PostHeaderText h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.PostAvatar{
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.VerifiedIconPost {
+    color: var(--main);
+    font-size: 14px !important;
+    cursor: pointer;
+    margin-bottom: -3px !important;
+}
+.PostHeaderUserName{
+    font-size: 11px;
+    font-weight: 800;
+    color: #222;
+    cursor: pointer;
+}
+.PostBody img {
+    border-radius: 25px;
+    cursor: pointer;
+}
+.PostFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor:pointer;
+}
